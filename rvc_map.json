@@ -1,0 +1,4710 @@
+{
+  "schema": 2,
+  "lights": [
+    {
+      "instance": "inst_02",
+      "category": "light",
+      "name": "Livingroom_Ceiling",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "02FF0006FF00FFFF",
+          "seen": "2025-11-12T23:26:26Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "02FFFA11FF00FFFF",
+          "seen": "2025-11-12T23:26:31Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "02FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "02FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_03",
+      "category": "light",
+      "name": "Dinette_Light",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "03FF0006FF00FFFF",
+          "seen": "2025-11-12T23:24:37Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "03FFFA11FF00FFFF",
+          "seen": "2025-11-12T23:24:41Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "03FFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "03FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "03FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "03FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "03FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "03FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_04",
+      "category": "light",
+      "name": "DS_Sofa",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "04FFFA11FF00FFFF",
+          "seen": "2025-11-12T23:30:56Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "04FF0006FF00FFFF",
+          "seen": "2025-11-12T23:31:01Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "04FFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "04FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "04FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "04FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "04FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "04FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_05",
+      "category": "light",
+      "name": "Sofa_Sconce",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "05FFFA11FF00FFFF",
+          "seen": "2025-11-12T23:31:49Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "05FF0006FF00FFFF",
+          "seen": "2025-11-12T23:31:53Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "05FFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "05FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "05FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "05FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "05FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "05FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_06",
+      "category": "light",
+      "name": "PS_Sofa",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "06FFFA11FF00FFFF",
+          "seen": "2025-11-12T23:30:38Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "06FF0006FF00FFFF",
+          "seen": "2025-11-12T23:30:45Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "06FFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "06FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "06FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "06FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "06FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "06FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_07",
+      "category": "light",
+      "name": "Kitchen_overhead",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "07FFFA11FF00FFFF",
+          "seen": "2025-11-12T23:33:40Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "07FF0006FF00FFFF",
+          "seen": "2025-11-12T23:33:44Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "07FFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "07FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "07FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "07FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "07FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "07FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_0A",
+      "category": "light",
+      "name": "BedRM_Lights",
+      "controller": "8E",
+      "panels": [
+        "9F"
+      ],
+      "actions": [
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0AFFFA11FF00FFFF",
+          "seen": "2025-11-12T23:42:02Z",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0AFF0006FF00FFFF",
+          "seen": "2025-11-12T23:42:08Z",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "0AFFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9F"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "0AFFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "0AFF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "0AFF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0AFF00130000FFFF",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0AFF00140000FFFF",
+          "panels": [
+            "9F"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_0C",
+      "category": "light",
+      "name": "Bedroom_Vanity",
+      "controller": "8E",
+      "panels": [
+        "9F"
+      ],
+      "actions": [
+        {
+          "name": "ON",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0CFFFA11FF00FFFF",
+          "seen": "2025-11-12T23:42:26Z",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0CFF0006FF00FFFF",
+          "seen": "2025-11-12T23:42:32Z",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "0CFFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9F"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "0CFFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "0CFF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "0CFF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0CFF00130000FFFF",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "0CFF00140000FFFF",
+          "panels": [
+            "9F"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_16",
+      "category": "light",
+      "name": "Entry_OH",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "16FFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "16FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "16FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "16FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "16FF0003FF00FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "16FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "16FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_17",
+      "category": "light",
+      "name": "Entertainment_Accent",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "17FFC800FF00FFFF",
+          "seen": "2025-11-12T23:33:12Z",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "17FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "17FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "17FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "17FF0003FF00FFFF",
+          "seen": "2025-11-12T23:33:19Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "17FF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "17FF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_1B",
+      "category": "light",
+      "name": "Base_Accent",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "1BFFC800FF00FFFF",
+          "seen": "2025-11-12T23:31:21Z",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "1BFFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "1BFF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "1BFF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "SHADE_PS_NIGHT_UP",
+          "pgn": "0x1FEDF",
+          "styles": [
+            "verb"
+          ],
+          "payload": "08FFC8451E00FFFF",
+          "friendly_name": "Shade_PS_Night_UP",
+          "_status": "UNCONFIRMED/for testing"
+        },
+        {
+          "name": "SHADE_PS_NIGHT_DOWN",
+          "pgn": "0x1FEDF",
+          "styles": [
+            "verb"
+          ],
+          "payload": "08FFC8851E00FFFF",
+          "friendly_name": "Shade_PS_Night_DOWN",
+          "_status": "UNCONFIRMED/for testing"
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "1BFF0003FF00FFFF",
+          "seen": "2025-11-12T23:31:26Z",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "1BFF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "1BFF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_1C",
+      "category": "light",
+      "name": "Sink_Light",
+      "controller": "8E",
+      "panels": [
+        "9D"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "1CFFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9D"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "1CFFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "1CFF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "1CFF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "1CFF0003FF00FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "1CFF00130000FFFF",
+          "panels": [
+            "9D"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "1CFF00140000FFFF",
+          "panels": [
+            "9D"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_1F",
+      "category": "light",
+      "name": "bathroom_light",
+      "controller": "8E",
+      "panels": [
+        "9F"
+      ],
+      "actions": [
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "1FFF0003FF00FFFF",
+          "seen": "2025-11-12T23:40:07Z",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "1FFFC800FF00FFFF",
+          "seen": "2025-11-12T23:55:01Z",
+          "level": 200,
+          "panels": [
+            "9F"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "1FFFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "1FFF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "1FFF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "1FFF00130000FFFF",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "1FFF00140000FFFF",
+          "panels": [
+            "9F"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_20",
+      "category": "light",
+      "name": "Base_Accent_Bathroom",
+      "controller": "8E",
+      "panels": [
+        "9F"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "20FFC800FF00FFFF",
+          "seen": "2025-11-12T23:43:35Z",
+          "level": 200,
+          "panels": [
+            "9F"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "20FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "20FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "20FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "20FF0003FF00FFFF",
+          "seen": "2025-11-12T23:43:40Z",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "20FF00130000FFFF",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "20FF00140000FFFF",
+          "panels": [
+            "9F"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_21",
+      "category": "light",
+      "name": "Lavatory_Overhead",
+      "controller": "8E",
+      "panels": [
+        "9F"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "21FFC800FF00FFFF",
+          "seen": "2025-11-12T23:41:19Z",
+          "level": 200,
+          "panels": [
+            "9F"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "21FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "21FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "21FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "21FF0003FF00FFFF",
+          "seen": "2025-11-12T23:41:25Z",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "21FF00130000FFFF",
+          "panels": [
+            "9F"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "21FF00140000FFFF",
+          "panels": [
+            "9F"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_24",
+      "category": "light",
+      "name": "hall_lights",
+      "controller": "8E",
+      "panels": [
+        "9D",
+        "9F"
+      ],
+      "actions": [
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "24FF0003FF00FFFF",
+          "seen": "2025-11-12T23:42:49Z",
+          "panels": [
+            "9D",
+            "9F"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "24FFC800FF00FFFF",
+          "seen": "2025-11-12T23:42:54Z",
+          "level": 200,
+          "panels": [
+            "9D",
+            "9F"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "24FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "24FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "24FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "24FF00130000FFFF",
+          "panels": [
+            "9D",
+            "9F"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "24FF00140000FFFF",
+          "panels": [
+            "9D",
+            "9F"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_25",
+      "category": "light",
+      "name": "Courtesy_Lights",
+      "controller": "8E",
+      "panels": [
+        "9C",
+        "9E"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "25FFC800FF00FFFF",
+          "seen": "2025-11-12T23:51:28Z",
+          "level": 200,
+          "panels": [
+            "9C",
+            "9E"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "25FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "25FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "25FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "25FF0003FF00FFFF",
+          "seen": "2025-11-12T23:51:34Z",
+          "panels": [
+            "9E"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "25FF00130000FFFF",
+          "panels": [
+            "9C",
+            "9E"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "25FF00140000FFFF",
+          "panels": [
+            "9C",
+            "9E"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_26",
+      "category": "light",
+      "name": "D/S_Security_Light",
+      "controller": "8E",
+      "panels": [
+        "9E"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "26FFC800FF00FFFF",
+          "seen": "2025-11-12T23:51:57Z",
+          "level": 200,
+          "panels": [
+            "9E"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "26FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "26FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "26FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "26FF0003FF00FFFF",
+          "seen": "2025-11-12T23:52:03Z",
+          "panels": [
+            "9E"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "26FF00130000FFFF",
+          "panels": [
+            "9E"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "26FF00140000FFFF",
+          "panels": [
+            "9E"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_27",
+      "category": "light",
+      "name": "P/S_Security_Light",
+      "controller": "8E",
+      "panels": [
+        "9E"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "27FFC800FF00FFFF",
+          "seen": "2025-11-12T23:52:22Z",
+          "level": 200,
+          "panels": [
+            "9E"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "27FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "27FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "27FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "27FF0003FF00FFFF",
+          "seen": "2025-11-12T23:52:27Z",
+          "panels": [
+            "9E"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "27FF00130000FFFF",
+          "panels": [
+            "9E"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "27FF00140000FFFF",
+          "panels": [
+            "9E"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_28",
+      "category": "light",
+      "name": "Porch_Light",
+      "controller": "8E",
+      "panels": [
+        "9E"
+      ],
+      "actions": [
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "28FFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9E"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "28FFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "28FF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "28FF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "28FF0003FF00FFFF",
+          "panels": [
+            "9E"
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "28FF00130000FFFF",
+          "panels": [
+            "9E"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "28FF00140000FFFF",
+          "panels": [
+            "9E"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_FF",
+      "category": "light",
+      "name": "Light_Master_OFF",
+      "controller": null,
+      "panels": [
+        "9C"
+      ],
+      "actions": [
+        {
+          "name": "OFF",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "FF8900060000FFFF",
+          "seen": "2025-11-12T23:48:05Z",
+          "panels": [
+            "9C"
+          ]
+        },
+        {
+          "name": "SET_LEVEL",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "set_level"
+          ],
+          "payload": "FFFFC800FF00FFFF",
+          "level": 200,
+          "panels": [
+            "9C"
+          ],
+          "sequence": [
+            {
+              "pgn": "0x1FEDB",
+              "data": "FFFFC800FF00FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "FFFF00150000FFFF"
+            },
+            {
+              "pgn": "0x1FEDB",
+              "data": "FFFF00040000FFFF"
+            }
+          ]
+        },
+        {
+          "name": "BRIGHT",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "FFFF00130000FFFF",
+          "panels": [
+            "9C"
+          ]
+        },
+        {
+          "name": "DIM",
+          "pgn": "0x1FEDB",
+          "styles": [
+            "verb"
+          ],
+          "payload": "FFFF00140000FFFF",
+          "panels": [
+            "9C"
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_02_SHADE",
+      "category": "shade",
+      "name": "Shade_DS_Day",
+      "controller": "8E",
+      "override_instance": 2,
+      "default_sa": "0x60",
+      "instance_group": "shades_front",
+      "actions": [
+        {
+          "name": "UP",
+          "pgn": "0x1FEDF",
+          "payload": "02FFC8851E00FFFF",
+          "friendly_name": "Shade_DS_Day_UP"
+        },
+        {
+          "name": "DOWN",
+          "pgn": "0x1FEDF",
+          "payload": "02FFC8451E00FFFF",
+          "friendly_name": "Shade_DS_Day_DOWN"
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_03_SHADE",
+      "category": "shade",
+      "name": "Shade_PS_Day",
+      "controller": "8E",
+      "override_instance": 3,
+      "default_sa": "0x60",
+      "instance_group": "shades_front",
+      "actions": [
+        {
+          "name": "UP",
+          "pgn": "0x1FEDF",
+          "payload": "03FFC8851E00FFFF",
+          "friendly_name": "Shade_PS_Day_UP"
+        },
+        {
+          "name": "DOWN",
+          "pgn": "0x1FEDF",
+          "payload": "03FFC8451E00FFFF",
+          "friendly_name": "Shade_PS_Day_DOWN"
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_05_SHADE",
+      "category": "shade",
+      "name": "Shade_Toll_Night",
+      "controller": "8E",
+      "override_instance": 5,
+      "default_sa": "0x60",
+      "instance_group": "shades_front",
+      "actions": [
+        {
+          "name": "UP",
+          "pgn": "0x1FEDF",
+          "payload": "05FFC8851E00FFFF",
+          "friendly_name": "Shade_Toll_Night_UP"
+        },
+        {
+          "name": "DOWN",
+          "pgn": "0x1FEDF",
+          "payload": "05FFC8451E00FFFF",
+          "friendly_name": "Shade_Toll_Night_DOWN"
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_07_SHADE",
+      "category": "shade",
+      "name": "Shade_DS_Night",
+      "controller": "8E",
+      "override_instance": 7,
+      "default_sa": "0x60",
+      "instance_group": "shades_front",
+      "actions": [
+        {
+          "name": "UP",
+          "pgn": "0x1FEDF",
+          "payload": "07FFC8851E00FFFF",
+          "friendly_name": "Shade_DS_Night_UP",
+          "_status": "UNCONFIRMED/for testing"
+        },
+        {
+          "name": "DOWN",
+          "pgn": "0x1FEDF",
+          "payload": "07FFC8451E00FFFF",
+          "friendly_name": "Shade_DS_Night_DOWN",
+          "_status": "UNCONFIRMED/for testing"
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_08_SHADE",
+      "category": "shade",
+      "name": "Shade_PS_Night",
+      "controller": "8E",
+      "override_instance": 8,
+      "default_sa": "0x60",
+      "instance_group": "shades_front",
+      "actions": [
+        {
+          "name": "UP",
+          "pgn": "0x1FEDF",
+          "payload": "08FFC8851E00FFFF",
+          "friendly_name": "Shade_PS_Night_UP",
+          "_status": "UNCONFIRMED/for testing"
+        },
+        {
+          "name": "DOWN",
+          "pgn": "0x1FEDF",
+          "payload": "08FFC8451E00FFFF",
+          "friendly_name": "Shade_PS_Night_DOWN",
+          "_status": "UNCONFIRMED/for testing"
+        }
+      ],
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    {
+      "instance": "inst_01",
+      "category": "light",
+      "name": "Driver_Side_Ceiling",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2017",
+        "model_range": [
+          "Entegra",
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_08",
+      "category": "light",
+      "name": "Bath_Ceiling",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_09",
+      "category": "light",
+      "name": "Bed_Ceiling",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra",
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_0B",
+      "category": "light",
+      "name": "Bed_Accent",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra",
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_0D",
+      "category": "light",
+      "name": "Light_0D",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_0E",
+      "category": "light",
+      "name": "Light_0E",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_0F",
+      "category": "light",
+      "name": "Bed_Vanity",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_10",
+      "category": "light",
+      "name": "Light_10",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_11",
+      "category": "light",
+      "name": "Light_11",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_12",
+      "category": "light",
+      "name": "Light_12",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_13",
+      "category": "light",
+      "name": "Light_13",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_14",
+      "category": "light",
+      "name": "Light_14",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_15",
+      "category": "light",
+      "name": "Sink_Light",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_18",
+      "category": "light",
+      "name": "Aquahot_Electric",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2011-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_19",
+      "category": "light",
+      "name": "Light_19",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_1A",
+      "category": "light",
+      "name": "blank2",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_1D",
+      "category": "light",
+      "name": "Bath_Lav",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_1E",
+      "category": "light",
+      "name": "Courtesy_Light",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_22",
+      "category": "light",
+      "name": "blank3",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_23",
+      "category": "light",
+      "name": "Bath_Base_Accent",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2013-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_29",
+      "category": "light",
+      "name": "Light_29",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_2A",
+      "category": "light",
+      "name": "Light_2A",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_2B",
+      "category": "light",
+      "name": "Ext_Cargo Lights",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_2C",
+      "category": "light",
+      "name": "Ext_DS_Security_Light",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_2D",
+      "category": "light",
+      "name": "Ext_PS_Security_Light",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_2E",
+      "category": "light",
+      "name": "Ext_Motion",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_2F",
+      "category": "light",
+      "name": "Ext_Motion_Status",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_30",
+      "category": "light",
+      "name": "Light_30",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_33",
+      "category": "light",
+      "name": "Light_33",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2017",
+        "model_range": [
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_34",
+      "category": "light",
+      "name": "Light_34",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2017",
+        "model_range": [
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_35",
+      "category": "light",
+      "name": "Porch",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2017",
+        "model_range": [
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_36",
+      "category": "light",
+      "name": "Light_36",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2017",
+        "model_range": [
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_37",
+      "category": "light",
+      "name": "Light_37",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2017",
+        "model_range": [
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_38",
+      "category": "light",
+      "name": "Water_Pump",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2017",
+        "model_range": [
+          "Pleasure-Way"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_5D",
+      "category": "light",
+      "name": "Water Pump /pump_out/",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2016-2019",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_64",
+      "category": "light",
+      "name": "Panel Brightness",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2018",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_6F",
+      "category": "light",
+      "name": "Ext_Cargo",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2018",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_70",
+      "category": "light",
+      "name": "OneTwelve",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2017",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_71",
+      "category": "light",
+      "name": "Main_Entry",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2018",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    },
+    {
+      "instance": "inst_72",
+      "category": "light",
+      "name": "Ext_Porch",
+      "controller": "8E",
+      "compatibility": {
+        "year_range": "2017-2018",
+        "model_range": [
+          "Entegra"
+        ]
+      },
+      "actions": []
+    }
+  ],
+  "commands": {
+    "locks": {
+      "controller": "63",
+      "pgn": "0x1FEE4",
+      "commands": {
+        "All_Doors": {
+          "instance": "0x00",
+          "lock": {
+            "payload": "0001FFFFFFFFFFFF",
+            "description": "Lock every door and cargo latch"
+          },
+          "unlock": {
+            "payload": "0000FFFFFFFFFFFF",
+            "description": "Unlock every door and cargo latch"
+          },
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "Entry_Door": {
+          "instance": "0x01",
+          "lock": {
+            "payload": "0101FFFFFFFFFFFF"
+          },
+          "unlock": {
+            "payload": "0100FFFFFFFFFFFF"
+          },
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "DS_Cargo": {
+          "instance": "0x02",
+          "lock": {
+            "payload": "0201FFFFFFFFFFFF"
+          },
+          "unlock": {
+            "payload": "0200FFFFFFFFFFFF"
+          },
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "PS_Cargo": {
+          "instance": "0x03",
+          "lock": {
+            "payload": "0301FFFFFFFFFFFF"
+          },
+          "unlock": {
+            "payload": "0300FFFFFFFFFFFF"
+          },
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "Cargo_All": {
+          "instance": "0x06",
+          "lock": {
+            "payload": "0601FFFFFFFFFFFF",
+            "description": "Helper loops over DS/PS cargo locks"
+          },
+          "unlock": {
+            "payload": "0600FFFFFFFFFFFF",
+            "description": "Helper loops over DS/PS cargo locks"
+          },
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        }
+      },
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "generator": {
+      "controller": "63",
+      "pgn": "0x1FEDB",
+      "profiles": [
+        {
+          "label": "2014-2016 Default",
+          "compatibility": {
+            "year_range": "2014-",
+            "model_range": [
+              "2016 Default"
+            ]
+          },
+          "load_ids": {
+            "stop": "0x12",
+            "start": "0x0E"
+          },
+          "start_sequence": [
+            {
+              "instance": "0x12",
+              "payload": "12FFC801FF00FFFF",
+              "description": "Prime fuel"
+            },
+            {
+              "instance": "0x12",
+              "payload": "12FFC804FF00FFFF",
+              "description": "Release prime"
+            },
+            {
+              "instance": "0x0E",
+              "payload": "0EFFC801FF00FFFF",
+              "description": "Engage starter"
+            },
+            {
+              "instance": "0x0E",
+              "payload": "0EFFC804FF00FFFF",
+              "description": "Release starter"
+            }
+          ],
+          "stop_sequence": [
+            {
+              "instance": "0x0E",
+              "payload": "0EFFC804FF00FFFF",
+              "description": "Stop request"
+            },
+            {
+              "instance": "0x12",
+              "payload": "12FFC801FF00FFFF",
+              "description": "Reset prime"
+            },
+            {
+              "instance": "0x12",
+              "payload": "12FFC804FF00FFFF",
+              "description": "Release"
+            }
+          ]
+        },
+        {
+          "label": "2015-2017 (Onan/Spartan)",
+          "compatibility": {
+            "year_range": "2015-",
+            "model_range": [
+              "2017",
+              "Onan",
+              "Spartan"
+            ]
+          },
+          "load_ids": {
+            "stop": "0x68",
+            "start": "0x67"
+          },
+          "start_sequence": [
+            {
+              "instance": "0x68",
+              "payload": "68FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x68",
+              "payload": "68FFC804FF00FFFF"
+            },
+            {
+              "instance": "0x67",
+              "payload": "67FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x67",
+              "payload": "67FFC804FF00FFFF"
+            }
+          ],
+          "stop_sequence": [
+            {
+              "instance": "0x67",
+              "payload": "67FFC804FF00FFFF"
+            },
+            {
+              "instance": "0x68",
+              "payload": "68FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x68",
+              "payload": "68FFC804FF00FFFF"
+            }
+          ]
+        },
+        {
+          "label": "2018+ (Vegatouch)",
+          "compatibility": {
+            "year_range": "2018+",
+            "model_range": [
+              "Vegatouch"
+            ]
+          },
+          "load_ids": {
+            "stop": "0x54",
+            "start": "0x53"
+          },
+          "start_sequence": [
+            {
+              "instance": "0x54",
+              "payload": "54FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x54",
+              "payload": "54FFC804FF00FFFF"
+            },
+            {
+              "instance": "0x53",
+              "payload": "53FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x53",
+              "payload": "53FFC804FF00FFFF"
+            }
+          ],
+          "stop_sequence": [
+            {
+              "instance": "0x53",
+              "payload": "53FFC804FF00FFFF"
+            },
+            {
+              "instance": "0x54",
+              "payload": "54FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x54",
+              "payload": "54FFC804FF00FFFF"
+            }
+          ]
+        },
+        {
+          "label": "2014-2017 Entegra (G6 relay)",
+          "compatibility": {
+            "year_range": "2014-",
+            "model_range": [
+              "2017 Entegra",
+              "G6 relay"
+            ]
+          },
+          "load_ids": {
+            "stop": "0x2C",
+            "start": "0x2A"
+          },
+          "notes": "Matches generator_entegra.pl, includes manual MQTT state checks.",
+          "start_sequence": [
+            {
+              "instance": "0x2C",
+              "payload": "2CFFC801FF00FFFF"
+            },
+            {
+              "instance": "0x2C",
+              "payload": "2CFFC804FF00FFFF"
+            },
+            {
+              "instance": "0x2A",
+              "payload": "2AFFC801FF00FFFF"
+            },
+            {
+              "instance": "0x2A",
+              "payload": "2AFFC804FF00FFFF"
+            }
+          ],
+          "stop_sequence": [
+            {
+              "instance": "0x2A",
+              "payload": "2AFFC804FF00FFFF"
+            },
+            {
+              "instance": "0x2C",
+              "payload": "2CFFC801FF00FFFF"
+            },
+            {
+              "instance": "0x2C",
+              "payload": "2CFFC804FF00FFFF"
+            }
+          ]
+        },
+        {
+          "label": "2017 Entegra w/Vegatouch",
+          "compatibility": {
+            "year_range": "2017",
+            "model_range": [
+              "Entegra",
+              "Vegatouch"
+            ]
+          },
+          "load_ids": {
+            "stop": "0x5A",
+            "start": "0x57"
+          },
+          "start_sequence": [
+            {
+              "instance": "0x5A",
+              "payload": "5AFFC801FF00FFFF"
+            },
+            {
+              "instance": "0x5A",
+              "payload": "5AFFC804FF00FFFF"
+            },
+            {
+              "instance": "0x57",
+              "payload": "57FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x57",
+              "payload": "57FFC804FF00FFFF"
+            }
+          ],
+          "stop_sequence": [
+            {
+              "instance": "0x57",
+              "payload": "57FFC804FF00FFFF"
+            },
+            {
+              "instance": "0x5A",
+              "payload": "5AFFC801FF00FFFF"
+            },
+            {
+              "instance": "0x5A",
+              "payload": "5AFFC804FF00FFFF"
+            }
+          ]
+        },
+        {
+          "label": "2017 Entegra (G6 spare channels)",
+          "compatibility": {
+            "year_range": "2017",
+            "model_range": [
+              "Entegra",
+              "G6 spare channels"
+            ]
+          },
+          "load_ids": {
+            "stop": "0x29",
+            "start": "0x28"
+          },
+          "start_sequence": [
+            {
+              "instance": "0x29",
+              "payload": "29FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x29",
+              "payload": "29FFC804FF00FFFF"
+            },
+            {
+              "instance": "0x28",
+              "payload": "28FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x28",
+              "payload": "28FFC804FF00FFFF"
+            }
+          ],
+          "stop_sequence": [
+            {
+              "instance": "0x28",
+              "payload": "28FFC804FF00FFFF"
+            },
+            {
+              "instance": "0x29",
+              "payload": "29FFC801FF00FFFF"
+            },
+            {
+              "instance": "0x29",
+              "payload": "29FFC804FF00FFFF"
+            }
+          ]
+        }
+      ],
+      "compatibility": {
+        "year_range": "varies",
+        "model_range": [
+          "Entegra/Onan"
+        ]
+      }
+    },
+    "aquahot_electric": {
+      "controller": "60",
+      "pgn": "0x1FEDB",
+      "commands": {
+        "OFF": {
+          "sequence": [
+            {
+              "instance": "0x6B",
+              "payload": "6BFFC8030200FFFF",
+              "description": "Master electric off"
+            },
+            {
+              "instance": "0x69",
+              "payload": "69FFC8030000FFFF"
+            },
+            {
+              "instance": "0x6A",
+              "payload": "6AFFC8030000FFFF"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "LOW": {
+          "sequence": [
+            {
+              "instance": "0x6B",
+              "payload": "6BFFC801FF00FFFF",
+              "description": "Master on"
+            },
+            {
+              "instance": "0x6A",
+              "payload": "6AFFC8030000FFFF",
+              "description": "Disable high relay"
+            },
+            {
+              "instance": "0x69",
+              "payload": "69FFC801FF00FFFF",
+              "description": "Enable low relay"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "HIGH": {
+          "sequence": [
+            {
+              "instance": "0x6B",
+              "payload": "6BFFC801FF00FFFF",
+              "description": "Master on"
+            },
+            {
+              "instance": "0x69",
+              "payload": "69FFC8030000FFFF",
+              "description": "Disable low relay"
+            },
+            {
+              "instance": "0x6A",
+              "payload": "6AFFC801FF00FFFF",
+              "description": "Enable high relay"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        }
+      },
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "ceiling_fan": {
+      "controller": "60",
+      "pgn": "0x1FEDB",
+      "commands": {
+        "Bedroom_Fan": {
+          "instances": {
+            "low": "0x23",
+            "high": "0x24"
+          },
+          "ON_LOW": [
+            {
+              "instance": "0x24",
+              "payload": "24FFC8030200FFFF",
+              "description": "Stop opposite winding"
+            },
+            {
+              "instance": "0x23",
+              "payload": "23FFC805FF00FFFF",
+              "description": "Run low speed"
+            }
+          ],
+          "ON_HIGH": [
+            {
+              "instance": "0x23",
+              "payload": "23FFC8030200FFFF"
+            },
+            {
+              "instance": "0x24",
+              "payload": "24FFC805FF00FFFF"
+            }
+          ],
+          "OFF": [
+            {
+              "instance": "0x23",
+              "payload": "23FFC8030000FFFF"
+            },
+            {
+              "instance": "0x24",
+              "payload": "24FFC8030000FFFF"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "Bedroom_Fan_OpenRoad": {
+          "instances": {
+            "low": "0x21",
+            "high": "0x22"
+          },
+          "ON_LOW": [
+            {
+              "instance": "0x22",
+              "payload": "22FFC8030200FFFF"
+            },
+            {
+              "instance": "0x21",
+              "payload": "21FFC805FF00FFFF"
+            }
+          ],
+          "ON_HIGH": [
+            {
+              "instance": "0x21",
+              "payload": "21FFC8030200FFFF"
+            },
+            {
+              "instance": "0x22",
+              "payload": "22FFC805FF00FFFF"
+            }
+          ],
+          "OFF": [
+            {
+              "instance": "0x21",
+              "payload": "21FFC8030000FFFF"
+            },
+            {
+              "instance": "0x22",
+              "payload": "22FFC8030000FFFF"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        }
+      },
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "lifts": {
+      "controller": "60",
+      "pgn": "0x1FEDB",
+      "commands": {
+        "TV_Lift_Front": {
+          "instances": {
+            "up": "0x2B",
+            "down": "0x2C"
+          },
+          "UP": [
+            {
+              "instance": "0x2C",
+              "payload": "2CFFC8030200FFFF"
+            },
+            {
+              "instance": "0x2B",
+              "payload": "2BFFC805FF00FFFF"
+            }
+          ],
+          "DOWN": [
+            {
+              "instance": "0x2B",
+              "payload": "2BFFC8030200FFFF"
+            },
+            {
+              "instance": "0x2C",
+              "payload": "2CFFC805FF00FFFF"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "Bed_Lift": {
+          "instances": {
+            "up": "0x29",
+            "down": "0x2A"
+          },
+          "UP": [
+            {
+              "instance": "0x2A",
+              "payload": "2AFFC8030200FFFF"
+            },
+            {
+              "instance": "0x29",
+              "payload": "29FFC805FF00FFFF"
+            }
+          ],
+          "DOWN": [
+            {
+              "instance": "0x29",
+              "payload": "29FFC8030200FFFF"
+            },
+            {
+              "instance": "0x2A",
+              "payload": "2AFFC805FF00FFFF"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "Rear_TV_Lift": {
+          "instances": {
+            "up": "0x2D",
+            "down": "0x2E"
+          },
+          "UP": [
+            {
+              "instance": "0x2E",
+              "payload": "2EFFC8030200FFFF"
+            },
+            {
+              "instance": "0x2D",
+              "payload": "2DFFC805FF00FFFF"
+            }
+          ],
+          "DOWN": [
+            {
+              "instance": "0x2D",
+              "payload": "2DFFC8030200FFFF"
+            },
+            {
+              "instance": "0x2E",
+              "payload": "2EFFC805FF00FFFF"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "2019_RED_TV_Lift": {
+          "instances": {
+            "up": "0x11",
+            "down": "0x15"
+          },
+          "UP": [
+            {
+              "instance": "0x15",
+              "payload": "15FFC8030200FFFF"
+            },
+            {
+              "instance": "0x11",
+              "payload": "11FFC805FF00FFFF"
+            }
+          ],
+          "DOWN": [
+            {
+              "instance": "0x11",
+              "payload": "11FFC8030200FFFF"
+            },
+            {
+              "instance": "0x15",
+              "payload": "15FFC805FF00FFFF"
+            }
+          ],
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        }
+      },
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "floor_heat": {
+      "controller": "63",
+      "profiles": {
+        "direct2015": {
+          "pgn": "0x1FEF9",
+          "levels": {
+            "1": {
+              "target_payload_front": "00FFFFE70024FFFF00",
+              "target_payload_rear": "01FFFFE70024FFFF00"
+            },
+            "2": {
+              "target_payload_front": "00FFFF750025FFFF00",
+              "target_payload_rear": "01FFFF750025FFFF00"
+            },
+            "3": {
+              "target_payload_front": "00FFFF030026FFFF00",
+              "target_payload_rear": "01FFFF030026FFFF00"
+            },
+            "4": {
+              "target_payload_front": "00FFFF910026FFFF00",
+              "target_payload_rear": "01FFFF910026FFFF00"
+            },
+            "5": {
+              "target_payload_front": "00FFFF200027FFFF00",
+              "target_payload_rear": "01FFFF200027FFFF00"
+            }
+          },
+          "notes": "Payload = <floor> FF FF <level byte> <indicator byte> FF FF 00. Temperatures 32-104\u00c2\u00b0F supported via THERMOSTAT_COMMAND_1 conversion.",
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "direct2016": {
+          "pgn": "0x1FEF9",
+          "levels": {
+            "1": {
+              "indicator_payload": "0EFF220FFFFFFFFF01"
+            },
+            "2": {
+              "indicator_payload": "0FFF340FFFFFFFFF02"
+            },
+            "3": {
+              "indicator_payload": "10FF3E22FFFFFFFF03"
+            },
+            "4": {
+              "indicator_payload": "11FF4822FFFFFFFF04"
+            },
+            "5": {
+              "indicator_payload": "12FF5222FFFFFFFF05"
+            }
+          },
+          "notes": "Additional indicator frames on PGN 0x1FF9C update Firefly display.",
+          "compatibility": {
+            "year_range": "pre-2013",
+            "model_range": [
+              "Entegra Aspire 40SKT"
+            ]
+          }
+        },
+        "updown2017": {
+          "pgn": "0x1FED9",
+          "zones": {
+            "front": {
+              "command_up": "FF920F0F0100D2EA",
+              "command_down": "FF920F0FFFFFFFD2EA"
+            },
+            "rear": {
+              "command_up": "FF920F100100D2EA",
+              "command_down": "FF920F10FFFFFFD2EA"
+            }
+          },
+          "notes": "RSI-9 target 0x92 (front) for 2017 Firefly coaches.",
+          "compatibility": {
+            "year_range": "2017+",
+            "model_range": [
+              "Entegra Firefly"
+            ]
+          }
+        },
+        "updown2018": {
+          "pgn": "0x1FED9",
+          "zones": {
+            "front": {
+              "command_up": "FF980F0F0100D2EA",
+              "command_down": "FF980F0FFFFFFFD2EA"
+            },
+            "rear": {
+              "command_up": "FF980F100100D2EA",
+              "command_down": "FF980F10FFFFFFD2EA"
+            }
+          },
+          "notes": "RSI-9 target 0x98 for 2018+.",
+          "compatibility": {
+            "year_range": "2017+",
+            "model_range": [
+              "Entegra Firefly"
+            ]
+          }
+        }
+      },
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "shades_generic": {
+      "compatibility": {
+        "year_range": "2014-2019",
+        "model_range": [
+          "Entegra/Tiffin CoachProxy"
+        ]
+      },
+      "pgn": "0x1FEDB",
+      "locations": [
+        {
+          "location": 0,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x0F",
+                  "payload": "0FFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x0D",
+                  "payload": "0DFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x0D",
+                  "payload": "0DFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x0F",
+                  "payload": "0FFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 1,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x4E",
+                  "payload": "4EFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x4D",
+                  "payload": "4DFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x4D",
+                  "payload": "4DFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x4E",
+                  "payload": "4EFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x50",
+                  "payload": "50FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x4F",
+                  "payload": "4FFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x4F",
+                  "payload": "4FFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x50",
+                  "payload": "50FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 2,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x52",
+                  "payload": "52FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x51",
+                  "payload": "51FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x51",
+                  "payload": "51FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x52",
+                  "payload": "52FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x52",
+                  "payload": "52FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x51",
+                  "payload": "51FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x51",
+                  "payload": "51FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x52",
+                  "payload": "52FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 3,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x62",
+                  "payload": "62FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x61",
+                  "payload": "61FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x61",
+                  "payload": "61FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x62",
+                  "payload": "62FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x64",
+                  "payload": "64FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x63",
+                  "payload": "63FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x63",
+                  "payload": "63FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x64",
+                  "payload": "64FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 4,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x66",
+                  "payload": "66FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x65",
+                  "payload": "65FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x65",
+                  "payload": "65FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x66",
+                  "payload": "66FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 5,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x79",
+                  "payload": "79FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x7A",
+                  "payload": "7AFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x7A",
+                  "payload": "7AFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x79",
+                  "payload": "79FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x79",
+                  "payload": "79FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x7A",
+                  "payload": "7AFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x7A",
+                  "payload": "7AFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x79",
+                  "payload": "79FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 6,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "01FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "01FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "02FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "02FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 7,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "03FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "03FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "04FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "04FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 8,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "05FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "05FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "06FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "06FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 9,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "07FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "07FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "08FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "08FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 10,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "09FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "09FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "0AFFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "0AFFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 11,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "0BFFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "0BFFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "0CFFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "0CFFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 12,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "0DFFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "0DFFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "0EFFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "0EFFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 13,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "0FFFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "0FFFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "10FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "10FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 14,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "11FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "11FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "12FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "12FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 15,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "13FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "13FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "14FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "14FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 16,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "15FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "15FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "16FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "16FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 17,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "17FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "17FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 18,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x11",
+                  "payload": "11FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x12",
+                  "payload": "12FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x12",
+                  "payload": "12FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x11",
+                  "payload": "11FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 19,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x7B",
+                  "payload": "7BFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x7C",
+                  "payload": "7CFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x7C",
+                  "payload": "7CFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x7B",
+                  "payload": "7BFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x7B",
+                  "payload": "7BFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x7C",
+                  "payload": "7CFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x7C",
+                  "payload": "7CFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x7B",
+                  "payload": "7BFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 20,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x15",
+                  "payload": "15FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x16",
+                  "payload": "16FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x16",
+                  "payload": "16FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x15",
+                  "payload": "15FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 21,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x17",
+                  "payload": "17FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x18",
+                  "payload": "18FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x18",
+                  "payload": "18FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x17",
+                  "payload": "17FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 22,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x61",
+                  "payload": "61FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x62",
+                  "payload": "62FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x62",
+                  "payload": "62FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x61",
+                  "payload": "61FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x63",
+                  "payload": "63FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x64",
+                  "payload": "64FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x64",
+                  "payload": "64FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x63",
+                  "payload": "63FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 23,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x60",
+                  "payload": "60FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x5F",
+                  "payload": "5FFFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x5F",
+                  "payload": "5FFFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x60",
+                  "payload": "60FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 24,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x13",
+                  "payload": "13FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x14",
+                  "payload": "14FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "sequence": [
+                {
+                  "instance": "0x14",
+                  "payload": "14FFC8030000FFFF",
+                  "description": "Stop opposing channel"
+                },
+                {
+                  "instance": "0x13",
+                  "payload": "13FFC8051E00FFFF",
+                  "description": "Run shade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "location": 90,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "DAY_UP",
+              "pgn": "0x1FEDB",
+              "payload": "12FFC8451E00FFFF"
+            },
+            {
+              "name": "DAY_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "12FFC8851E00FFFF"
+            },
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "13FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "13FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 91,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "11FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "11FFC8851E00FFFF"
+            }
+          ]
+        },
+        {
+          "location": 92,
+          "compatibility": {
+            "year_range": "2014-2019",
+            "model_range": [
+              "Window Shade Command",
+              "Awnings"
+            ]
+          },
+          "actions": [
+            {
+              "name": "NIGHT_UP",
+              "pgn": "0x1FEDB",
+              "payload": "14FFC8451E00FFFF"
+            },
+            {
+              "name": "NIGHT_DOWN",
+              "pgn": "0x1FEDB",
+              "payload": "14FFC8851E00FFFF"
+            }
+          ]
+        }
+      ]
+    },
+    "panel_lights_entegra": {
+      "compatibility": {
+        "year_range": "2017-2019",
+        "model_range": [
+          "Entegra Aspire/Anthem"
+        ]
+      },
+      "pgn": "0x1FED9",
+      "panels": [
+        {
+          "panel_id": 126,
+          "name": "All",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF7E{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 129,
+          "name": "Entry",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF81{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 130,
+          "name": "Main Lower",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF82{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 132,
+          "name": "Hall",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF84{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 133,
+          "name": "Mid Bath",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF85{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 134,
+          "name": "Bedroom",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF86{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 137,
+          "name": "Rear Bath",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF89{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 138,
+          "name": "Main Upper (custom)",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF8A{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        },
+        {
+          "panel_id": 139,
+          "name": "Bed Overhead (custom)",
+          "command_format": {
+            "pgn": "0x1FED9",
+            "payload_template": "FF8B{level_byte}FFFFFF00FF",
+            "level_range": [
+              0,
+              100
+            ],
+            "level_multiplier": 2
+          },
+          "compatibility": {
+            "year_range": "2017-2019",
+            "model_range": [
+              "Entegra Panel Lights"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "statuses": {
+    "ATS": {
+      "topics": [
+        "RVC/ATS_AC_STATUS_1",
+        "RVC/ATS_AC_STATUS_2",
+        "RVC/ATS_AC_STATUS_3"
+      ],
+      "pgns": [
+        "0x1FF4C",
+        "0x1FF4D",
+        "0x1FF4E"
+      ],
+      "description": "Automatic transfer switch voltage/source state",
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "DC_SOURCE": {
+      "topics": [
+        "RVC/DC_SOURCE_STATUS",
+        "RVC/DC_SOURCE_STATUS_1",
+        "RVC/DC_SOURCE_STATUS_SPYDER"
+      ],
+      "pgn": "0x1FF50",
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "GENERATOR_STATUS": {
+      "topics": [
+        "RVC/GENERATOR_STATUS_1"
+      ],
+      "pgn": "0x1FFBD",
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "THERMOSTAT_AMBIENT": {
+      "topics": [
+        "RVC/THERMOSTAT_AMBIENT_STATUS"
+      ],
+      "pgn": "0x1FEF7",
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "TANK": {
+      "topics": [
+        "RVC/TANK_STATUS"
+      ],
+      "pgn": "0x1FEDD",
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    },
+    "CHASSIS_MOBILITY": {
+      "topics": [
+        "RVC/CHASSIS_MOBILITY_STATUS"
+      ],
+      "pgn": "0x1FEC1",
+      "compatibility": {
+        "year_range": "pre-2013",
+        "model_range": [
+          "Entegra Aspire 40SKT"
+        ]
+      }
+    }
+  }
+}
